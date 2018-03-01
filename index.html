@@ -4,36 +4,39 @@
 	<title>John Alexander Espindola</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="custom.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto+Slab" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Oswald|Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
 
 </head>
-<body >
-	<style>
-		
-	</style>
+<body data-spy="scroll" data-target="navbar-header" data-offset="0">
+
 	<header class="sticky-top shrinky md-whiteframe-4dp" id="menu">
-		<nav>
-		  	<ul class="nav justify-content-end">
-				<li class="nav-item">
-					<a class="nav-link active" href="#">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Portfolio</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
-				</li>
-			</ul>
+		<nav class="navbar navbar-expand-lg" id="navbar-header">
+			<div class="container">
+				<a class="navbar-brand" href="#"><span class="brand">John Espindola</span></a>
+		  	  		<div class="collapse navbar-collapse">
+					  	<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link active" href="#home">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#portfolio">Portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+			</div>
 		</nav>
 	</header>
 	
-	<section class="first_section parallax">
+	<section class="first_section parallax" id="home">
 		<div class="container my-auto ">
 			<div class="row text-center ">
 				<div class="col-lg-11  mx-auto textFirstSection">
@@ -41,12 +44,12 @@
 					<div class="introHeading"><i>Welcome to my Site!</i></div>
 				</div>
 
-				<div class="col-lg-10 mx-auto my-auto"><a href="" class="btn btn-primary">Tell me more</a></div>
+				<div class="col-lg-10 mx-auto my-auto"><a href="#about" class="btn btn-primary">Tell me more</a></div>
 			</div>
 		</div>
 	</section>
 	
-	<section class="sections">
+	<section class="sections" id="about">
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-lg-12">
@@ -67,7 +70,7 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<ul class="socialIcons nopadding">
 						<li class="displayInlineItem">
-							<a href="">
+							<a href="https://www.linkedin.com/in/johnespindola/" target="_blank">
 								<span class="fa-stack fa-2x">
 				                  <i class="fa fa-circle fa-stack-2x"></i>
 				                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -75,7 +78,7 @@
 							</a>
 						</li>
 						<li class="displayInlineItem">
-							<a href="">
+							<a href="https://www.facebook.com/jaespindola" target="_blank">
 								<span class="fa-stack fa-2x">
 				                  <i class="fa fa-circle fa-stack-2x"></i>
 				                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -83,7 +86,7 @@
 							</a>
 						</li>
 						<li class="displayInlineItem">
-							<a href="">
+							<a href="https://twitter.com/Jaw7388" target="_blank">
 								<span class="fa-stack fa-2x">
 				                  <i class="fa fa-circle fa-stack-2x"></i>
 				                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -91,7 +94,7 @@
 							</a>
 						</li>
 						<li class="displayInlineItem">
-							<a href="">
+							<a href="https://github.com/jaw7388" target="_blank">
 								<span class="fa-stack fa-2x">
 				                  <i class="fa fa-circle fa-stack-2x"></i>
 				                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -103,9 +106,10 @@
 			</div>
 		</div>	
 	</section>
+	
 	<hr>
 
-	<section class="sections">
+	<section class="sections" id="portfolio">
 		<div class="container-fluid">
 			<div class="row text-center">
 				<div class="col-lg-12">
@@ -204,7 +208,7 @@
 		</div>
 	</section>
 
-	<section class="sections">
+	<section class="sections" id="contact">
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-lg-12">
